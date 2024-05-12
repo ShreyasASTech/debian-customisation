@@ -1,5 +1,7 @@
 # Linux Tweaks
-These are the customisations for linux (currently Debian, Archlinux, NixOS & RHEL based linux distros) that I use regardless of the Desktop Environment or Window Manager.
+These are the customisations for Linux that I apply regardless of which version or distribution of Linux I choose to use. Tested to work on any distribution of Linux that is based on Debian, Archlinux, NixOS, and RHEL. 🚀
+
+I am hopeful that you might find at least some of them useful. 🌟
 
 ## Screenshots
 ![desktop](https://github.com/shreyas-a-s/linux-tweaks/assets/137637016/39040215-2486-45f4-8009-1a6a6bdf833b)
