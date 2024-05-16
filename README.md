@@ -65,6 +65,11 @@ I am hopeful that you might find at least some of them useful. 🌟
   - Uninstalls Firefox, Contacts, GNOME Terminal, Software Center, Gedit, Help.
 - Setup Multi-Audio - Adds ability to connect a bluetooth earphone and a wired earphone simultaneousily.
 
+## Prerequisites
+
+- Any version of Linux that is based on either Debian, Ubuntu, Arch Linux, NixOS, RHEL, or Fedora.
+- GNOME Desktop Environment installed and set as default. (Optional)
+
 ## Installation
 
 Execute install.sh as **normal user** from a terminal:
