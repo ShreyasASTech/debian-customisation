@@ -43,18 +43,18 @@ I am hopeful that you might find at least some of them useful. 🌟
     - Command Not Found handler - It'll autocorrect if you've entered a wrong command to terminal.
     - [LSD](https://github.com/lsd-rs/lsd) - Colorful ls command
     - [Neovim](https://github.com/neovim/neovim) - The best text/code editor in the world 😉
-    - [Starship](https://github.com/starship/starship) - Add a blink to your shell prompt
+    - [Starship](https://github.com/starship/starship) - Add a blink to your shell prompt 🌠
     - Terminal Apps:
-      - [Bat](https://github.com/sharkdp/bat) - Cat with colors. I mean it.
+      - [Bat](https://github.com/sharkdp/bat) - Cat with colors. I mean it. 😸
       - [Fzf](https://github.com/junegunn/fzf) - Easily search files from terminal
-      - Git - You don't know git?
+      - Git - You don't know git? Try it, it's fun.
       - [Htop](https://github.com/htop-dev/htop) - Terminal resource monitor.
       - [Ncdu](https://github.com/rofl0r/ncdu) - Terminal storage analyzer.
-      - [Neofetch](https://github.com/dylanaraps/neofetch) - Show off your system info in screenshots.
+      - [Neofetch](https://github.com/dylanaraps/neofetch) - Show off your system info in screenshots. 😏
       - [Ripgrep](https://github.com/BurntSushi/ripgrep) - Easily search contents of text files from terminal.
       - [Shellcheck](https://github.com/koalaman/shellcheck) - Test shell (bash/zsh) scripts without actually running them.
-      - [Trash-cli](https://github.com/andreafrancia/trash-cli) - Ever `rm`-ed a file and wanted a trash-bin for terminal. Here it is.
-      - [Zoxide](https://github.com/ajeetdsouza/zoxide) - Move around files and folders blazingly fast.
+      - [Trash-cli](https://github.com/andreafrancia/trash-cli) - Ever `rm`-ed a file and wanted a trash-bin for terminal. Here it is. 😌
+      - [Zoxide](https://github.com/ajeetdsouza/zoxide) - Move around files and folders blazingly fast. ⚡
     - [Tldr](https://github.com/tldr-pages/tldr) - Simplified usage examples of commands.
   - Configures these:
     - User shell (bash/zsh/fish) by adding useful aliases and tweaks.
