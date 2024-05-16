@@ -20,6 +20,9 @@ I am hopeful that you might find at least some of them useful. 🌟
 - Add a program named [`wifi-toggle`](https://github.com/shreyas-a-s/linux-tweaks/blob/de/scripts/common/wifi-toggle.sh) to toggle wifi.
 
 ### Applied based on user choice:
+| ![user-choice](https://github.com/shreyas-a-s/linux-tweaks/assets/137637016/f6c94494-c85c-4fcd-b112-1917a24277c4) |
+|:--:|
+
 - Install [AutoCPUFreq](https://github.com/AdnanHodzic/auto-cpufreq) - It's a program to automatically adjust CPU speed and thereby saving battery. Useful for laptops.
 - Install [Brave Browser](https://github.com/brave/brave-browser) - A fast, ad-free browser that respects your privacy.
 - Install [Cron](https://github.com/Cron/Cron) - A job-scheduler for automating tasks in Linux.
