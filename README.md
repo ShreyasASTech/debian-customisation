@@ -72,7 +72,7 @@ I am hopeful that you might find at least some of them useful. 🌟
 
 ## Installation
 
-Execute install.sh as **normal user** from a terminal:
+Execute these commands from a terminal and follow the prompts:
 
 ```bash
  git clone https://github.com/shreyas-a-s/linux-tweaks.git
