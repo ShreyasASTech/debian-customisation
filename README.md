@@ -4,7 +4,10 @@ These are the customisations for Linux that I apply regardless of which version 
 I am hopeful that you might find at least some of them useful. 🌟
 
 ## Screenshots
-![desktop](https://github.com/shreyas-a-s/linux-tweaks/assets/137637016/39040215-2486-45f4-8009-1a6a6bdf833b)
+| ![gnome-customized](https://github.com/shreyas-a-s/linux-tweaks/assets/137637016/39040215-2486-45f4-8009-1a6a6bdf833b) |
+|:--:|
+| Debian GNOME customized using the tweaks |
+
 ## Features
 
 ### Applied automatically:
