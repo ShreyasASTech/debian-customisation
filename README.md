@@ -88,3 +88,12 @@ For those who would like a single-line command:
  git clone https://github.com/shreyas-a-s/linux-tweaks.git && cd linux-tweaks/ && ./install.sh
 ```
 
+## Contributions
+
+### Why contribute?
+I've tried to make this script as user-friendly as possible but since this is my personal project there can be some bugs and kinks. 🐞
+
+I would highly appreciate if you could report the bugs you find and also suggest any changes that will make the project better. ❤️
+
+### How to contribute?
+You could file an issue [here](https://github.com/shreyas-a-s/linux-tweaks/issues) or if you could make the bug fix or changes yourself, then creating a pull request [here](https://github.com/shreyas-a-s/linux-tweaks/pulls) would be ideal. In any shape or form, I love when an issue or pull request comes to my notification. So you could create one to make me happy, too. 😜
