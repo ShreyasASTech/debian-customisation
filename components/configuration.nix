@@ -148,6 +148,7 @@
       obs-studio
       obsidian
       onlyoffice-bin
+      p7zip
       qjackctl
       ripgrep
       shellcheck
