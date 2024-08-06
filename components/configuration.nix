@@ -117,6 +117,7 @@
       curl
       evince
       fd
+      flutter
       fragments
       fzf
       gcc
@@ -137,8 +138,11 @@
       gnome.nautilus
       gnome-secrets
       gnumake
+      gnutar
       gparted
       htop
+      jq
+      libxml2
       lsd
       man-db
       ncdu
