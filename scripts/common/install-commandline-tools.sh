@@ -2,7 +2,7 @@
 
 # Display title of script
 if type _printtitle &> /dev/null; then
-  _printtitle "INSTALLING - FLUTTER"
+  _printtitle "INSTALLING - ANDROID CMDLINE TOOLS"
 fi
 
 # Install dependencies
