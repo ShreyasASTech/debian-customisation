@@ -114,6 +114,8 @@
       baobab
       bat
       brave
+      clang
+      cmake
       curl
       evince
       fd
@@ -140,19 +142,24 @@
       gnumake
       gnutar
       gparted
+      gtk3
       htop
       jq
+      libGLU
       libxml2
       lsd
+      jdk17_headless
       man-db
       ncdu
       neofetch
       neovim
+      ninja
       nodejs
       obs-studio
       obsidian
       onlyoffice-bin
       p7zip
+      pkg-config
       qjackctl
       ripgrep
       shellcheck
@@ -160,6 +167,7 @@
       thermald
       tldr
       trash-cli
+      unzip
       virtualenv
       vlc
       vscodium
@@ -168,6 +176,8 @@
       xdg-desktop-portal-gnome
       xdg-user-dirs
       xsel
+      xz
+      zip
       zoxide
     ];
     # Environment variables.

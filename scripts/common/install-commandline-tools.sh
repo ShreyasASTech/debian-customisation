@@ -33,7 +33,14 @@ unzip "$latest_version_file"
 rm "$latest_version_file"
 
 # Create directory to store the files
-mkdir -pv "$HOME"/.local/share/android-sdk
+mkdir -pv "$HOME"/.local/share/android/sdk/cmdline-tools/
 
 # Move the files
-mv cmdline-tools/ "$HOME"/.local/share/android-sdk/
+mv cmdline-tools/ "$HOME"/.local/share/android/sdk/cmdline-tools/latest/
+
+# Install Android SDK and tools
+export PATH="$HOME"/.local/share/android/sdk/cmdline-tools/latest/bin:"$PATH"
+sdkmanager "platforms;android-35"
+sdkmanager "platform-tools"
+sdkmanager "build-tools;35.0.0"
+sdkmanager "system-images;android-35;google_apis;x86_64"

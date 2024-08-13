@@ -7,11 +7,11 @@ fi
 
 # Install dependencies
 if command -v apt-get > /dev/null; then # Install for debian-based distros
-  sudo apt-get install -y curl jq tar git
+  sudo apt-get install -y curl jq tar git zip unzip xz-utils libglu1-mesa clang cmake ninja-build pkg-config libgtk-3-dev openjdk-17-jdk-headless
 elif command -v pacman > /dev/null; then # Install for ar gitchlinux-based distros
-  sudo pacman -S --noconfirm curl jq tar git
+  sudo pacman -S --noconfirm curl jq tar git zip unzip xz glu clang cmake ninja pkgconf gtk3 jdk17-openjdk
 elif command -v dnf > /dev/null; then # Install for RHEL-based distros
-  sudo dnf install -y curl jq tar git
+  sudo dnf install -y curl jq tar git zip unzip xz mesa-libGLU clang cmake ninja-build pkgconf-pkg-config gtk3 java-17-openjdk
 fi
 
 # Change directory
@@ -50,8 +50,9 @@ fi
 ./install-commandline-tools.sh
 
 # Setup Android sdk path in flutter
-"$HOME"/github/flutter/bin/flutter config --android-sdk "$HOME"/.local/share/android-sdk/
+"$HOME"/github/flutter/bin/flutter config --android-sdk "$HOME"/.local/share/android/sdk/
 
 # Display shell config info
-echo "Add the below line to your shell config file (.bashrc or .zshrc)"
+echo "Add the following lines to your shell config file (.bashrc or .zshrc)"
 echo "export PATH=\$HOME/github/flutter/bin:\$PATH"
+echo "export PATH=\$HOME/.local/share/android/sdk/cmdline-tools/latest/bin:\$PATH"
