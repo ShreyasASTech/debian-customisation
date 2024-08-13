@@ -52,6 +52,9 @@ fi
 # Setup Android sdk path in flutter
 "$HOME"/github/flutter/bin/flutter config --android-sdk "$HOME"/.local/share/android/sdk/
 
+# Accept flutter Android licenses
+"$HOME"/github/flutter/bin/flutter doctor --android-licenses
+
 # Display shell config info
 echo "Add the following lines to your shell config file (.bashrc or .zshrc)"
 echo "export PATH=\$HOME/github/flutter/bin:\$PATH"
