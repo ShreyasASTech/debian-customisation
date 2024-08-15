@@ -29,12 +29,12 @@
     networkmanager.enable = true; # Enable networking.
     firewall = {
       enable = true;
-      allowedTCPPortRanges = [
-        { from = 1714; to = 1764; } # KDEConnect/GSConnect
-      ];
-      allowedUDPPortRanges = [
-        { from = 1714; to = 1764; } # KDEConnect/GSConnect
-      ];
+      # allowedTCPPortRanges = [
+      #   { from = 1714; to = 1764; } # KDEConnect/GSConnect
+      # ];
+      # allowedUDPPortRanges = [
+      #   { from = 1714; to = 1764; } # KDEConnect/GSConnect
+      # ];
     };
   };
 
@@ -66,7 +66,8 @@
       layout = "us"; # Configure keymap in X11.
       xkbVariant = "";
     };
-    auto-cpufreq.enable = true;
+    # AutoCPUFreq was disabled due to negligible difference in battery life
+    # auto-cpufreq.enable = true;
     thermald.enable = true;
     # printing.enable = true;
     # openssh.enable = true;
@@ -125,7 +126,7 @@
       gcc
       gh
       git
-      github-desktop
+      # github-desktop
       gnome-console
       gnome.eog
       gnome.gnome-backgrounds
@@ -170,7 +171,7 @@
       unzip
       virtualenv
       vlc
-      vscodium
+      # vscodium
       wget
       xdg-desktop-portal
       xdg-desktop-portal-gnome

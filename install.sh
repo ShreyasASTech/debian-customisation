@@ -42,15 +42,15 @@ fi
 
 # Take user choice
 choices=$(whiptail --title "USER CHOICE" --checklist "      Choose one or more options:" 15 43 8 \
-     1 "Install AutoCPUFreq" ON \
+     1 "Install AutoCPUFreq" OFF \
      2 "Install Brave Browser" ON \
      3 "Install Cron" ON \
      4 "Install Extra Fonts" ON \
      5 "Install Flutter" ON \
-     6 "Install Github Desktop" ON \
+     6 "Install Github Desktop" OFF \
      7 "Install GUI Apps" ON \
      8 "Install Joplin" OFF \
-     9 "Install KDE/GSConnect" ON \
+     9 "Install KDE/GSConnect" OFF \
     10 "Install Obsidian" ON \
     11 "Install OnlyOffice" ON \
     12 "Install Password Manager  " ON \
@@ -58,7 +58,7 @@ choices=$(whiptail --title "USER CHOICE" --checklist "      Choose one or more o
     14 "Install Terminal Tweaks" ON \
     15 "Install Torrect Client" ON \
     16 "Install UFW" ON \
-    17 "Install VSCodium" ON \
+    17 "Install VSCodium" OFF \
     18 "Setup Bluetooth" ON \
     19 "Setup Bootloader" ON \
     20 "Setup GNOME" ON \
