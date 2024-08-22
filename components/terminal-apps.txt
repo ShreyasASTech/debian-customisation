@@ -12,4 +12,5 @@ ripgrep
 shellcheck
 trash-cli
 wget
+zip
 zoxide
