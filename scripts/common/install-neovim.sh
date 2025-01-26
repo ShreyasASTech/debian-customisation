@@ -23,11 +23,12 @@ if command -v apt-get > /dev/null; then
   if [ "$(apt-cache show neovim | grep Version | awk -F '.' '{print $2}')" -ge 9 ]; then
     sudo apt-get install -y neovim
   else
-    if ! command -v snap > /dev/null; then
-      ./install-snap.sh
+    # Install pre-built binary
+    curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+    if [ -d "/opt/nvim-linux64/" ]; then
+      sudo rm -rf /opt/nvim-linux64/
     fi
-    sudo snap install nvim 2>/dev/null || sudo snap install nvim --classic
-    sudo ln -s /snap/bin/nvim /usr/local/bin/
+    sudo tar -C /opt -xzf nvim-linux64.tar.gz
   fi
 fi
 
