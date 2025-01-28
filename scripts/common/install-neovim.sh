@@ -29,6 +29,7 @@ if command -v apt-get >/dev/null; then
       sudo rm -rf /opt/nvim-linux64/
     fi
     sudo tar -C /opt -xzf nvim-linux64.tar.gz
+    rm nvim-linux64.tar.gz
   fi
 fi
 
