@@ -24,12 +24,12 @@ if command -v apt-get >/dev/null; then
     sudo apt-get install -y neovim
   else
     # Install pre-built binary
-    curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
-    if [ -d "/opt/nvim-linux64/" ]; then
-      sudo rm -rf /opt/nvim-linux64/
+    curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
+    if [ -d "/opt/nvim-linux-x86_64/" ]; then
+      sudo rm -rf /opt/nvim-linux-x86_64/
     fi
-    sudo tar -C /opt -xzf nvim-linux64.tar.gz
-    rm nvim-linux64.tar.gz
+    sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+    rm nvim-linux-x86_64.tar.gz
   fi
 fi
 
